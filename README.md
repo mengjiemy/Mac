@@ -20,7 +20,7 @@
 我们可以通过两种方式安装它。如果您购买了Microsoft Office for Mac，请安装它，并安装Consolas。
 
 如果您没有Office，请按照下列步骤操作：
-`$ brew install cabextract
+$ brew install cabextract
 $ cd ~/Downloads
 $ mkdir consolas
 $ cd consolas
@@ -49,10 +49,10 @@ $ open CONSOLA*.TTF`
 
 我们稍后会回过头来看详细信息，但是现在，只需将附加到此文档的文件.bash_profile，.bash_prompt，.aliases下载到您的主目录中（.bash_profile是加载的文件，我已经设置好了）打电话给其他人）：
 
-`$ cd ~
+$ cd ~
 $ curl -O https://raw.githubusercontent.com/awayings/mac-dev-setup/master/.bash_profile
 $ curl -O https://raw.githubusercontent.com/awayings/mac-dev-setup/master/.bash_prompt
-$ curl -O https://raw.githubusercontent.com/awayings/mac-dev-setup/master/.aliases`
+$ curl -O https://raw.githubusercontent.com/awayings/mac-dev-setup/master/.aliases
 然后，打开一个新的终端选项卡（Cmd + T）并查看更改！尝试列表命令：ls，ls -lh（别名ll），ls -lha（别名la）。
 
 此时，您还可以更改计算机的名称，该名称显示在此终端提示符中。如果要执行此操作，请转至“ 系统首选项” >“ 共享”。例如，我将“Nicolas的MacBook Air”改为“MacBook Air”，因此它显示MacBook-Air在终端中。
